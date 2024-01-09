@@ -1,0 +1,33 @@
+{
+  "name": "poc-file-conversions",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run dev",
+    "start-dev": "nodemon index.js"
+  },
+  "author": "Omkar-Hirave-Flairminds",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.484.0",
+    "@aws-sdk/s3-request-presigner": "^3.484.0",
+    "aws-sdk": "^2.1528.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "handlebars": "^4.7.8",
+    "mysql2": "^3.6.5",
+    "nodemon": "^3.0.2",
+    "path": "^0.12.7",
+    "puppeteer": "^21.6.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flairminds-poc/html-to-pdf-be.git"
+  },
+  "bugs": {
+    "url": "https://github.com/flairminds-poc/html-to-pdf-be/issues"
+  },
+  "homepage": "https://github.com/flairminds-poc/html-to-pdf-be#readme",
+  "description": ""
+}
